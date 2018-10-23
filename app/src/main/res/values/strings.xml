@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">你的相机</string>
+    <string name="video">视频</string>
+    <string name="record">录制</string>
+    <string name="local_video_beauty">本地视频美颜</string>
+    <string name="audio_editor">音频处理</string>
+    <string name="video_connect">视频拼接</string>
+    <string name="video_select">选择视频</string>
+    <string name="audio_select">选择音频</string>
+    <string name="pcm_2_audio">PCM转音频</string>
+    <string name="audio_mix">音频混合</string>
+    <string name="audio_mix_select_one">选择第一个音频</string>
+    <string name="video_connect_select_one">选择第一个视频</string>
+    <string name="audio_mix_select_two">选择第二个音频</string>
+    <string name="video_connect_select_two">选择第二个视频</string>
+    <string name="change_filter">左右滑动切换滤镜哟...</string>
+    <string name="confirm_to_editor_video">点击确定分离音频</string>
+
+    <integer-array name="google_glyph_colors">
+        <item>@android:color/white</item>
+        <item>@color/google_red</item>
+        <item>@color/google_yellow</item>
+        <item>@color/google_blue</item>
+        <item>@color/google_green</item>
+    </integer-array>
+
+
+    <string-array name="google_glyph_strings">
+        <item>M142.9,24.2C97.6,39.7,59,73.6,37.5,116.5c-7.5,14.8-12.9,30.5-16.2,46.8c-8.2,40.4-2.5,83.5,16.1,120.3   c12.1,24,29.5,45.4,50.5,62.1c19.9,15.8,43,27.6,67.6,34.1c31,8.3,64,8.1,95.2,1c28.2-6.5,54.9-20,76.2-39.6   c22.5-20.7,38.6-47.9,47.1-77.2c9.3-31.9,10.5-66,4.7-98.8c-58.3,0-116.7,0-175,0c0,24.2,0,48.4,0,72.6c33.8,0,67.6,0,101.4,0   c-3.9,23.2-17.7,44.4-37.2,57.5c-12.3,8.3-26.4,13.6-41,16.2c-14.6,2.5-29.8,2.8-44.4-0.1c-14.9-3-29-9.2-41.4-17.9   c-19.8-13.9-34.9-34.2-42.6-57.1c-7.9-23.3-8-49.2,0-72.4c5.6-16.4,14.8-31.5,27-43.9c15-15.4,34.5-26.4,55.6-30.9   c18-3.8,37-3.1,54.6,2.2c15,4.5,28.8,12.8,40.1,23.6c11.4-11.4,22.8-22.8,34.2-34.2c6-6.1,12.3-12,18.1-18.3   c-17.3-16-37.7-28.9-59.9-37.1C228.2,10.6,183.2,10.3,142.9,24.2z</item>
+        <item>M142.9,24.2c40.2-13.9,85.3-13.6,125.3,1.1c22.2,8.2,42.5,21,59.9,37.1c-5.8,6.3-12.1,12.2-18.1,18.3    c-11.4,11.4-22.8,22.8-34.2,34.2c-11.3-10.8-25.1-19-40.1-23.6c-17.6-5.3-36.6-6.1-54.6-2.2c-21,4.5-40.5,15.5-55.6,30.9    c-12.2,12.3-21.4,27.5-27,43.9c-20.3-15.8-40.6-31.5-61-47.3C59,73.6,97.6,39.7,142.9,24.2z</item>
+        <item>M21.4,163.2c3.3-16.2,8.7-32,16.2-46.8c20.3,15.8,40.6,31.5,61,47.3c-8,23.3-8,49.2,0,72.4    c-20.3,15.8-40.6,31.6-60.9,47.3C18.9,246.7,13.2,203.6,21.4,163.2z</item>
+        <item>M203.7,165.1c58.3,0,116.7,0,175,0c5.8,32.7,4.5,66.8-4.7,98.8c-8.5,29.3-24.6,56.5-47.1,77.2    c-19.7-15.3-39.4-30.6-59.1-45.9c19.5-13.1,33.3-34.3,37.2-57.5c-33.8,0-67.6,0-101.4,0C203.7,213.5,203.7,189.3,203.7,165.1z</item>
+        <item>M37.5,283.5c20.3-15.7,40.6-31.5,60.9-47.3c7.8,22.9,22.8,43.2,42.6,57.1c12.4,8.7,26.6,14.9,41.4,17.9    c14.6,3,29.7,2.6,44.4,0.1c14.6-2.6,28.7-7.9,41-16.2c19.7,15.3,39.4,30.6,59.1,45.9c-21.3,19.7-48,33.1-76.2,39.6    c-31.2,7.1-64.2,7.3-95.2-1c-24.6-6.5-47.7-18.2-67.6-34.1C67,328.9,49.6,307.5,37.5,283.5z</item>
+    </string-array>
+
+
+
+    <string name="filter_none">原图</string>
+    <string name="filter_whitecat">白猫</string>
+    <string name="filter_blackcat">黑猫</string>
+    <string name="filter_romance">浪漫</string>
+    <string name="filter_sakura">樱花</string>
+    <string name="filter_antique">复古</string>
+    <string name="filter_beauty">美肤</string>
+    <string name="filter_calm">平静</string>
+    <string name="filter_cool">冰冷</string>
+    <string name="filter_emerald">祖母绿</string>
+    <string name="filter_evergreen">常青</string>
+    <string name="filter_fairytale">童话</string>
+    <string name="filter_healthy">健康</string>
+    <string name="filter_latte">拿铁</string>
+    <string name="filter_nostalgia">怀旧</string>
+    <string name="filter_tender">温柔</string>
+    <string name="filter_warm">温暖</string>
+    <string name="filter_sweets">甜品</string>
+    <string name="filter_sunrise">日出</string>
+    <string name="filter_sunset">日落</string>
+    <string name="filter_skinwhiten">美白</string>
+    <string name="filter_crayon">蜡笔</string>
+    <string name="filter_sketch">素描</string>
+
+    <string name="edit_filter">滤镜</string>
+    <string name="edit_edit">编辑</string>
+    <string name="edit_adds">装饰</string>
+    <string name="edit_frame">边框</string>
+    <string name="edit_beauty">美颜</string>
+
+    <string name="edit_contrast">对比度</string>
+    <string name="edit_exposure">曝光</string>
+    <string name="edit_vibrance">自然饱和度</string>
+    <string name="edit_saturation">饱和度</string>
+    <string name="edit_sharpness">锐化</string>
+    <string name="edit_brightness">亮度</string>
+    <string name="edit_hue">色调</string>
+
+
+    <string name="filter_amaro">Amaro</string>
+    <string name="filter_brannan">Brannan</string>
+    <string name="filter_brooklyn">Brooklyn</string>
+    <string name="filter_Earlybird">EarlyBird</string>
+    <string name="filter_freud">Freud</string>
+    <string name="filter_hefe">Hefe</string>
+    <string name="filter_hudson">Hudson</string>
+    <string name="filter_inkwell">Inkwell</string>
+    <string name="filter_kevin">Kevin</string>
+    <string name="filter_lomo">Lomo</string>
+    <string name="filter_n1977">1977</string>
+    <string name="filter_nashville">Nashville</string>
+    <string name="filter_pixar">Pixar</string>
+    <string name="filter_rise">Rise</string>
+    <string name="filter_sierra">Sierra</string>
+    <string name="filter_sutro">Sutro</string>
+    <string name="filter_toastero">Toaster2</string>
+    <string name="filter_valencia">Valencia</string>
+    <string name="filter_walden">Walden</string>
+    <string name="filter_xproii">XproII</string>
+
+</resources>

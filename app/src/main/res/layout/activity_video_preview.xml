@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1c20">
+
+
+    <com.leo.mycarm.widget.VideoPreviewView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/relative_preview_title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#1b1c20">
+
+        <RelativeLayout
+            android:id="@+id/bar_btn_left"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_titlemenu"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/bar_btn_image_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/solink_back_new" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="视频编辑"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x19" />
+
+        <TextView
+            android:id="@+id/bar_txt_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:text="保存视频"
+            android:textColor="@drawable/selector_titlebar_textview_white"
+            android:textSize="@dimen/bar_rightsize" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_filter_tab"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/relative_video_previewBottom"
+        android:background="#1b1c20">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/filter_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#1b1c20"
+            android:padding="5.0dip"
+            android:scrollbars="none" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_video_previewBottom"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/solink_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="滤镜"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

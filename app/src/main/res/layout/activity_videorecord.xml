@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.leo.mycarm.widget.CameraView
+        android:id="@+id/mCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <com.leo.mycarm.widget.FocusImageView
+        android:id="@+id/mFocus"
+        android:layout_width="75dip"
+        android:layout_height="75dip"
+        android:visibility="invisible"
+        app:focus_fail_id="@mipmap/focus_focus_failed"
+        app:focus_focusing_id="@mipmap/focus_focusing"
+        app:focus_success_id="@mipmap/focus_focused" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/btn_camera_switch"
+            android:src="@drawable/selector_rewardcamera"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#1b1c20">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="1000"
+            android:minHeight="5dp"
+            android:progress="0"
+            android:progressDrawable="@drawable/progressbar_bg" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/progress_bar"
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0S"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/image_Video"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/text_time"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/selector_forvideo" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
